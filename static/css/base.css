@@ -58,3 +58,25 @@ footer {
     background-color: var(--off-white);
     box-shadow: var(--smal-box-shadow);
 }
+
+a.nav-link {
+    color: var(--black);
+}
+
+img.logo {
+    width: 18.75rem;
+}
+
+.active {
+    border-bottom: 2px solid var(--blue);
+    font-weight: 500;
+}
+
+/* Form */
+
+.form {
+    width: 100%;
+    margin: 3% auto;
+    box-shadow: var(--smal-box-shadow);
+    border-radius: 5px;
+}
