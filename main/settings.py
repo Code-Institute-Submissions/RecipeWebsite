@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
     #Apps
     'home',
+    'recipes',
 
     #Other
     'crispy_forms',
@@ -170,5 +171,5 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-t0tacci0-p4-xupfz1mezgd.ws-eu114.gitpod.io'
+    'https://8000-t0tacci0-p4-qs1ajprhgsy.ws.codeinstitute-ide.net'
 ]
