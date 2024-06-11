@@ -7,6 +7,7 @@ class RecipeAdmin(admin.ModelAdmin):
         "title",
         "meal_type",
         "calories",
+        "instructions",
         "ingredients",
         "image",
     )
