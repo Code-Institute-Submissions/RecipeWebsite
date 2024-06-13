@@ -21,6 +21,7 @@ CUISINE_TYPES = (
     ("oceanic", "Oceanic"),
 )
 
+
 class Recipe(models.Model):
     """
     A model to create and manage recipes
@@ -48,7 +49,7 @@ class Recipe(models.Model):
     )
     calories = models.IntegerField()
     posted_date = models.DateTimeField(auto_now=True)
-    
+
     class Meta:
         ordering = ["-posted_date"]
 
