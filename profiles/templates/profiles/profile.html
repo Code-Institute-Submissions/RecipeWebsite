@@ -15,12 +15,12 @@
                 <img src="{% static '/icons/no-photography-icon.svg' %}" alt="Image not found icon">
                 {% endif %}
             </div>
-            <h1>{{ profile.user.username }}</h1>
-            <p><strong>Joined: </strong>{{ profile.user.date_joined|date:'d M Y' }}</p>
-            <p><strong>Recipes: </strong>{{ profile.user.recipe_owner.count }}</p>
+            <h1 class="text-center">{{ profile.user.username }}</h1>
+            <p class="text-center"><strong class="text-center">Joined: </strong>{{ profile.user.date_joined|date:'d M Y' }}</p>
+            <p class="text-center"><strong class="text-center">Recipes: </strong>{{ profile.user.recipe_owner.count }}</p>
             {{ profile.bio|safe }}
         </div>
-        <div class="profile-recipes">
+        <div class="profile-recipes text-center">
             <h2 class="text-center pb-4">Latest Recipes</h2>
             {% for recipe in profile.user.recipe_owner.all %}
             <a href="{% url 'recipe_detail' recipe.id %}">

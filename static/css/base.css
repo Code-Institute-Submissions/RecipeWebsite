@@ -158,6 +158,33 @@ a.img-container:hover {
     transform: translate(-50%, -50%);
 }
 
+/* Profiles */
+
+.profile-img {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.profile-img img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    width: 100%;
+    text-align: center;
+}
+
+.profile-recipes {
+    width: 100%;
+}
+
 @media screen and (min-width:40em){
     .form {
         width: 50%;
