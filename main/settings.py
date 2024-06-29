@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '8000-t0tacci0-p4-qs1ajprhgsy.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '8000-t0tacci0-recipewebsite-c95v7alg7wr.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -195,5 +195,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATIC_ROOT = "staticfiles"
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-t0tacci0-p4-qs1ajprhgsy.ws.codeinstitute-ide.net/'
+    'https://8000-t0tacci0-recipewebsite-c95v7alg7wr.ws.codeinstitute-ide.net'
 ]
