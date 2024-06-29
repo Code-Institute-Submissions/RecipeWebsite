@@ -192,6 +192,8 @@ CLOUDINARY_URL = os.environ.get('CLOUDINARY_URL')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+STATIC_ROOT = "staticfiles"
+
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-t0tacci0-recipewebsite-kq2n4cpc3x9.ws.codeinstitute-ide.net/'
 ]
