@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 import django_heroku
 import dj_database_url
+import cloudinary
 
 DATABASES = {
     'default': dj_database_url.config(conn_max_age=600, ssl_require=True)
@@ -188,6 +189,16 @@ LOGIN_REDIRECT_URL = '/'
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+
+# Set CLOUDINARY_URL directly
+os.environ["CLOUDINARY_URL"] = "cloudinary://592711536469319:SeXfKrjxRSaDNWqPkam3QLi6Blo@dfjqihdnk"
+
+# Initialize Cloudinary
+cloudinary.config(
+    cloud_name="dfjqihdnk",
+    api_key="592711536469319",
+    api_secret="SeXfKrjxRSaDNWqPkam3QLi6Blo"
+)
 
 # Cloudinary Settings
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
