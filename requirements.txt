@@ -3,6 +3,7 @@ black==24.4.2
 click==8.1.7
 cloudinary==1.40.0
 crispy-bootstrap5==2024.2
+dj-database-url==2.2.0
 Django==5.0.6
 django-allauth==0.63.3
 django-bootstrap==0.2.4
@@ -10,9 +11,14 @@ django-bootstrap5==24.2
 django-cloudinary-storage==0.3.0
 django-crispy-bootstrap==0.1.1.1
 django-crispy-forms==2.2
+django-heroku==0.3.1
 django-resized==1.0.2
 django-richtextfield==1.6.2
 gunicorn==22.0.0
 pathspec==0.12.1
 pillow==10.3.0
+psycopg2==2.9.9
+PyJWT==2.8.0
+python3-openid==3.2.0
 sqlparse==0.5.0
+whitenoise==6.7.0
