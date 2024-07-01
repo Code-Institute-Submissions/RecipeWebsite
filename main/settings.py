@@ -34,7 +34,7 @@ if os.path.exists('env.py'):
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '8000-t0tacci0-recipewebsite-c95v7alg7wr.ws.codeinstitute-ide.net', ".herokuapp.com", 'recipewebsite-1d6b244bd06e.herokuapp.com']
 
