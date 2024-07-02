@@ -6,6 +6,9 @@ from django.contrib.auth.mixins import (
 )
 
 from django.db.models import Q
+from django.urls import reverse_lazy
+from django.shortcuts import redirect, get_object_or_404
+from django.http import Http404
 
 from .models import Recipe
 from .forms import RecipeForm
@@ -54,10 +57,16 @@ class EditRecipe(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     template_name = 'recipes/edit_recipe.html'
     model = Recipe
     form_class = RecipeForm
-    success_url = '/recipes/'
-    
+    success_url = reverse_lazy('recipes:recipes')  # Redirect to the recipes list page
+
     def test_func(self):
-        return self.request.user == self.get_object().user        
+        """Check if the current user is the creator of the recipe"""
+        recipe = self.get_object()
+        return self.request.user == recipe.user
+
+    def handle_no_permission(self):
+        """Redirect to home page if user is not authorized"""
+        return redirect('index')
 
 class DeleteRecipe(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     """Delete a recipe"""
