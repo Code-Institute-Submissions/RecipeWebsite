@@ -208,5 +208,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-t0tacci0-recipewebsite-c95v7alg7wr.ws.codeinstitute-ide.net', 'https://*.herokuapp.com', 'https://recipewebsite-1d6b244bd06e.herokuapp.com'
+    'https://8000-t0tacci0-recipewebsite-7rkfmuaq5ea.ws.codeinstitute-ide.net', 'https://*.herokuapp.com', 'https://recipewebsite-1d6b244bd06e.herokuapp.com'
 ]
