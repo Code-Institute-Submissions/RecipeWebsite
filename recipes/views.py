@@ -57,7 +57,7 @@ class EditRecipe(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     template_name = 'recipes/edit_recipe.html'
     model = Recipe
     form_class = RecipeForm
-    success_url = reverse_lazy('recipes:recipes')  # Redirect to the recipes list page
+    success_url = '/recipes/'
 
     def test_func(self):
         """Check if the current user is the creator of the recipe"""
