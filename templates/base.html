@@ -13,8 +13,8 @@
     {% block onload_js %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     {% endblock %}
-    <!-- link to favicon -->
-    <link rel="icon" type="image" href="static/images/favicon.ico">
+   <!-- Favicon -->
+   <link type="image/png" sizes="16x16" rel="icon" href="{% static '/images/favicon/favicon.ico' %}">
     <title>Recipes{% block title %}{% endblock %}</title>
 </head>
 <body>
