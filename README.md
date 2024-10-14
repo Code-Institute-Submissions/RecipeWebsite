@@ -9,9 +9,8 @@ Discover a world of sweet recipes from all the world , satisfy your appetite wit
 
 ## Table of Contents
 ### [User Experience](#user-experience-ux)
-* [Project Goals](#project-goals)
+* [Project Purpose](#project-purpose)
 * [Agile Methodology](#agile-methodology)
-* [Target Audience](#target-audience)
 * [First time user](#first-time-user)
 * [Registered user](#registered-user)
 * [Admin user](#admin-user)
@@ -43,6 +42,42 @@ Discover a world of sweet recipes from all the world , satisfy your appetite wit
 * [Acknowledgments](#acknowledgments)
 
 ---
+
+## User Experience UX
+
+### Project Purpose
+
+Recipes is a site where the user can create, modify and delete recipes created or taken from any other source. The purpose of this project is to connect users who have a passion for cooking and also users who are approaching this sector for the first time taking inspiration from the recipes from these same. Create a small community where users can interact with each other. Users can easily navigate to the different pages of the website with the navigation menu at the top. The navigation menu contains a logo which takes the user to the home page if they click on it and has five menus: Home, Recipes, Add Recipe, Register and LogIn.If a user is registered and logged in, instead of Register and LogIn there will be Profile and LogOut.
+
+### Agile Methodology
+
+I used an Agile methodology approach to plan this project. This was implemented through the GitHub Project board.
+Each user story was classified with a label according to MoSCoW prioritization.<br>
+The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7).
+
+### First Time User
+
+ - As a first time user, I want to find out what the website offers.
+ - As a first time user, I want to navigate easy through the different menus.
+ - As a first time user, I want to find the links to other social media platform where I can find and search the recipes through other platforms.
+ - As a first time user, I want to be able to join the website so I easy can find new/saved recipes.
+ - As a first time user, I want to be able to join the website so I can write my own recipes.
+ - As a first time user, I want to be able to find on search bar keywords recipes.
+
+### Registered User
+
+  - As a registered user, I want to log in and see saved/created recipes.
+  - As a registered user, I want to see if the website is updated with new recipes from other users.
+  - As a registered user, I want to be able to add,update or delete my recipes.
+
+### Admin User
+
+ - As a admin user, I am able to change or delete users and profiles.
+ - As a admin user, I am able to change Authentication and Authorization users.
+ - As a admin user, I am able to delete or change recipes.
+
+
+----
 
 ## Deployment and Local Developement
 
