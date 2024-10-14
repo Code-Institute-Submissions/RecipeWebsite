@@ -26,10 +26,10 @@ Discover a world of sweet recipes from all the world , satisfy your appetite wit
 * [Existing Features](#existing-features)
 * [Features Left to Implement](#features-left-to-implement)
 ### [Technologies Used](#technologies-used-1)
-* [Languages Used](#languages-used)
-* [Databases Used](#databases-used)
-* [Frameworks Used](#frameworks-used)
-* [Programs Used](#programs-used)
+* [Languages](#languages)
+* [Tools](#tools)
+* [Frameworks](#frameworks)
+* [Libraries and modules](#libraries-and-modules)
 ### [Deployment and Local developement](#deployment-and-local-developement-1)
 * [Local Developement](#local-developement)
 * [ElephantSQL Database](#elephantsql-database)
@@ -76,6 +76,46 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
  - As a admin user, I am able to change Authentication and Authorization users.
  - As a admin user, I am able to delete or change recipes.
 
+
+----
+
+## Technologies Used
+
+### Languages:
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://www.javascript.com/)
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+### Tools:
+- [Git](https://git-scm.com/) Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitHub](https://github.com/) Used to save and store the files for the website.
+- [Heroku](https://www.heroku.com) Used to deploy the application.
+- [VS Code](https://code.visualstudio.com/) Used as IDE. 
+- [Code Insitute Database Maker](https://dbs.ci-dbs.net/) PostgreSQL database hosting for this project.
+- [Fontawesome](https://fontawesome.com/) Used to add icons to the website.
+- [Balsamiq](https://balsamiq.com/) Used to create the wireframes.
+- [Coloors](https://coolors.co/image-picker) Used to create the colour scheme.
+- [Cloudinary](https://cloudinary.com/) Used to store the item images.
+- [Canva](https://www.canva.com/) Used to create the logo.
+- [Favicon.io](https://favicon.io/favicon-generator/) Used to create the favicon.
+- [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools?hl=de) Used to check the application for responsiveness and errors.
+
+### Frameworks: 
+- [Bootstrap](https://getbootstrap.com/) 
+- [Django](https://en.wikipedia.org/wiki/Django_(web_framework))
+- [jquery](https://jquery.com/)
+
+### Libraries and modules:
+- [os](https://docs.python.org/3/library/os.html) Provides functions to interact with the operating system. 
+- [sys](https://docs.python.org/3/library/sys.html) Used to get system-specific functions.
+- [datetime](https://docs.python.org/3/library/time.html) Supplies classes for manipulating dates and times.
+- [Gunicorn](https://gunicorn.org/) Provides a way to serve Python web applications.
+- [Pycopg 2](https://pypi.org/project/psycopg2/) PostgreSQL database adapter for Python.
+- [Allauth](https://docs.allauth.org/en/latest/) Used to handle user authentication, registration, and account management.
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) Django application to manage and to render the forms.
+- [Whitenoise](https://whitenoise.readthedocs.io/en/stable/) Used to serve static files.
+- [dj_database_url](https://pypi.org/project/dj-database-url/) Enables the ability to represent their database settings via a string.
 
 ----
 
