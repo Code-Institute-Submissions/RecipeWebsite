@@ -30,9 +30,9 @@ Discover a world of sweet recipes from all the world , satisfy your appetite wit
 * [Tools](#tools)
 * [Frameworks](#frameworks)
 * [Libraries and modules](#libraries-and-modules)
-### [Deployment and Local developement](#deployment-and-local-developement-1)
+### [Deployment](#deployment-1)
 * [Local Developement](#local-developement)
-* [ElephantSQL Database](#elephantsql-database)
+* [CI PostgreSQL Database](#ci-postgresql-database)
 * [Cloudinary](#cloudinary)
 * [Heroku Deployment](#heroku-deployment)
 ### [Testing](#testing-1)
@@ -119,11 +119,17 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 
 ----
 
-## Deployment and Local Developement
+## Deployment
 
 Live deployment can be found on this [View RecipeWebsite live here](https://recipewebsite-1d6b244bd06e.herokuapp.com/)
 
 ### Local Developement
+
+ 1. Generate an env.py file in the root directory of the project
+ 2. Configure the environment variables within this file.
+ 3. Create a virtual environment
+ 4. Install all required dependencies using _pip install_ command into the .venv
+ 5. Add dependencies to the requirements.txt file using _pip3 freeze > requirements.txt_ command
 
 #### How to Fork
 1. Log in(or Sign Up) to Github
