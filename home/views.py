@@ -1,6 +1,7 @@
 from django.views.generic import ListView
 from recipes.models import Recipe
 
+
 class index(ListView):
     template_name = 'home/base.html'
     model = Recipe

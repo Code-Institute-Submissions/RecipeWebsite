@@ -32,7 +32,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '8000-t0tacci0-recipewebsite-7rkfmuaq5ea.ws.codeinstitute-ide.net', ".herokuapp.com", 'recipewebsite-1d6b244bd06e.herokuapp.com']
+ALLOWED_HOSTS = [
+    '127.0.0.1', 'localhost', '127.0.0.1:8000', ".herokuapp.com",
+    '8000-t0tacci0-recipewebsite-7rkfmuaq5ea.ws.codeinstitute-ide.net'
+]
 
 
 # Application definition
@@ -50,12 +53,12 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
 
-    #Apps
+    # Apps
     'home',
     'recipes',
     'profiles',
 
-    #Other
+    # Other
     'crispy_forms',
     'crispy_bootstrap5',
     'cloudinary',
@@ -186,16 +189,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
-# Set CLOUDINARY_URL directly
-os.environ["CLOUDINARY_URL"] = "cloudinary://592711536469319:SeXfKrjxRSaDNWqPkam3QLi6Blo@dfjqihdnk"
-
-# Initialize Cloudinary
-cloudinary.config(
-    cloud_name="dfjqihdnk",
-    api_key="592711536469319",
-    api_secret="SeXfKrjxRSaDNWqPkam3QLi6Blo"
-)
-
 # Cloudinary Settings
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 CLOUDINARY_URL = os.environ.get('CLOUDINARY_URL')
@@ -208,5 +201,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-t0tacci0-recipewebsite-7rkfmuaq5ea.ws.codeinstitute-ide.net', 'https://*.herokuapp.com', 'https://recipewebsite-1d6b244bd06e.herokuapp.com'
+    'https://8000-t0tacci0-recipewebsite-7rkfmuaq5ea.ws.codeinstitute-ide.net',
+    'https://*.herokuapp.com',
+    'https://recipewebsite-1d6b244bd06e.herokuapp.com'
 ]

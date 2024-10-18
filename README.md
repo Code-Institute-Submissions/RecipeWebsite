@@ -21,7 +21,6 @@ Discover a world of sweet recipes from all the world , satisfy your appetite wit
 * [Data Model](#data-models)
 * [User Journey](#user-journey)
 * [Database Scheme](#database-scheme)
-### [Security Features](#security-features-1)
 ### [Features](#features-1)
 * [Existing Features](#existing-features)
 * [Features Left to Implement](#features-left-to-implement)
@@ -216,6 +215,53 @@ Live deployment can be found on this [View RecipeWebsite live here](https://reci
 
 Site is now live
 
+## Testing
+
+The app was tested regularly and deployed early to Heroku to make sure both local and remote worked the same.
+
+### Validator Testing
+
+<details>
+<summary> HTML Validation</summary>
+<br>
+
+All HTML pages were run through the [W3C HTML Validator](https://validator.w3.org/). <br>
+  - result for 'home' page<br>
+    ![HTML validation result for home page](static/images/documentation/validator/home.png)<br>
+  - result for 'Sign Up' page<br>
+    ![HTML validation result for sign up page](static/images/documentation/validator/signup.png)<br>
+  - result for 'Log In' page<br>
+    ![HTML validation result for log in page](static/images/documentation/validator/login.png)<br> 
+  - result for 'Log Out' page<br>
+    ![HTML validation result for log out page](static/images/documentation/validator/logout.png)<br>
+  - result for 'Confirm Email' page<br>
+    ![HTML validation result for add recipe page](static/images/documentation/validator/add_recipes.png)<br> 
+  - result for 'Profile' page<br>
+    ![HTML validation result for profile page](static/images/documentation/validator/profile.png)<br>
+  - result for 'Edit Profile' page<br>
+    ![HTML validation result for recipes page](static/images/documentation/validator/recipes.png)<br>
+  <br>
+  
+</details>
+
+<details>
+<summary> CSS Validation</summary>
+<br>
+
+I passed my css file through the [CSS Validator](https://jigsaw.w3.org/css-validator/) and no errors were found.<br>
+     
+![CSS result](static/images/documentation/validator/css.png)
+  
+</details>
+
+<details>
+<summary> Python Validation</summary>
+<br>
+
+All created python files were checked with the [Code Insitute validator - CI Python Linter](https://pep8ci.herokuapp.com/#). After removing some lines that were too long, everything was clear, and no errors were found.<br>
+  
+</details>
+
 ## References
 ### Docs
 
@@ -228,6 +274,8 @@ Site is now live
 * [Cloudinary](https://cloudinary.com/documentation/diagnosing_error_codes_tutorial)
 * [Google](https://www.google.com/)
 * [Heroku deployment](https://devcenter.heroku.com/categories/deployment)
+* [Reddit](https://www.reddit.com/)
+* [W3schools](https://www.w3schools.com/)
 
 ### Content
 

@@ -18,6 +18,7 @@ class Profiles(TemplateView):
 
         return context
 
+
 class EditProfile(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     """Edit a profile"""
 
