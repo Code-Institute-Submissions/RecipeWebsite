@@ -35,6 +35,9 @@ Discover a world of sweet recipes from all the world , satisfy your appetite wit
 * [Cloudinary](#cloudinary)
 * [Heroku Deployment](#heroku-deployment)
 ### [Testing](#testing-1)
+* [Validator Testing](#validator-testing)
+* [Lighthouse Test](#lighthouse-test)
+* [Manual Testing](#manual-testing)
 ### [References](#references-1)
 * [Docs](#docs)
 * [Content](#content)
@@ -261,6 +264,72 @@ I passed my css file through the [CSS Validator](https://jigsaw.w3.org/css-valid
 All created python files were checked with the [Code Insitute validator - CI Python Linter](https://pep8ci.herokuapp.com/#). After removing some lines that were too long, everything was clear, and no errors were found.<br>
   
 </details>
+
+### Lighthouse Test
+To measure the website against performance, accessibility, SEO and best practice, I used [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de).<br>
+<details>
+<summary> Results </summary>
+<br>
+
+  - Home Page
+  ![Lighthouse result for home page](static/images/documentation/lighthouse_validator/home.png)
+  - Sign Up
+  ![Lighthouse result for sign up page](static/images/documentation/lighthouse_validator/register.png)
+  - Log In<br>
+  ![Lighthouse result for log in page](static/images/documentation/lighthouse_validator/login.png)
+  - Log Out<br>
+  ![Lighthouse result for log out page](static/images/documentation/lighthouse_validator/logout.png)
+  - Verify your email<br>
+  ![Lighthouse result for recipes page](static/images/documentation/lighthouse_validator/recipes.png)
+  - Profile Page<br>
+  ![Lighthouse result for profile page](static/images/documentation/lighthouse_validator/profile.png)
+  - Edit Profile Page<br>
+  ![Lighthouse result for add recipe page](static/images/documentation/lighthouse_validator/add_recipe.png)
+  
+
+</details>
+
+### Manual Testing
+
+<details>
+<summary> Click here to see the testing table for features</summary>
+<br>
+
+| **Test** | **Test Description** | **Expected Outcome** | **Result** |
+|:---|:---|:---|:---|
+| Header - Logo | Click on the logo to return to main page | Clicking on the logo on each page will return you to the main page | Pass |
+| Header - Navbar toggle in tablet/mobile view | Click in tablet/mobile view on the burger icon to open the navigation | When the burger icon in mobile or tablet view is clicked, the navigation should open | Pass |
+| Header - Navigation underline | The page you are currently on should be underlined in the menu | After reaching a page at the application, the corresponding navigation item should be underlined | Pass |
+| Header - Navigation link | Click on a term in the navigation bar to go to the corresponding page | Clicking on a page at the navigation bar should take the user to the corresponding page | Pass |
+| Header - Navigation links and items | Depending on whether the user is logged in or not, the navigation elements should adapt accordingly | After logging in, the navigation menu should adjust accordingly. | Pass |
+| Add recipe page - default version | Visit the website for the first time or don't be logged in to see the default version of the 'add recipe' page | After visiting the website for the first time or if a user isn't logged in, the main page should contain a signin form with the option to signup.  | Pass |
+| Add recipe page - Log in version | Log in to see a modified version of the 'add recipe' page | After logging in, the 'add recipe' page should contain a form list to create recipe. | Pass |
+| Sign Up | Fill out each field and click on the sign-up button. | After filling out every form field with validate input, and clicking the 'Sign Up' button, the user should be logged in. | Pass |
+| Log In | Log in with username and password | Clicking on the 'Log In' button after providing the correct username and password, the user should be redirected to the main page in the log in version. In addition, a message that a successful login has taken place should be displayed. | Pass |
+| Log out | Click 'Logout' in the navigation bar | After clicking on Logout, a new page should open in which the user is asked whether they really want to log out. When the logout button is clicked again, the user is redirected to the default home page and a message is displayed. | Pass |
+| User profile Overview - Log in required | Navigate to the profile page to see profile data | The profile page should show an overview of the data given | pass |
+| 'Add recipe' page - Log in required | Click in the navigation bar on the link 'add recipe' to get to the 'Add recipe' page | After the user clicks on the link, he gets to the corresponding page 'Add recipe'. | Pass |
+| Recipes | log in required | Click on the recipe to get to the selected recipe | The user should see all the different recipes when first visiting the recipes page.The user should be taken to the correct recipe when clicking on one of the recipes. | Pass |
+| Edit recipes | log in required | Click on the recipe detail page to make changes.If the user has made that recipe should be able to edit/delete that recipe. | The user should see the correct recipe with all the information about. The user should be able to edit/delete the recipe made. | Pass |
+| Header - search bar | Click on the search bar to find recipes | Clicking on the search bar user can find recipes.If no recipes are found the bar shows no recipes with white page.| Pass |
+| Admin panel - superuser required | Navigate to the home page of the application and append /admin to it | As superuser, the admin panel should appear | Pass |
+| Admin panel - Login as superuser - superuser required | Access the admin login page, enter a valid superuser username and password, click the "Log in" button | The admin dashboard is displayed | Pass |
+| Admin panel - Try to access the admin area without superuser privileges - superuser required | Log in as a regular user, access the admin URL by adding /admin to the homepage URL | An error message is displayed indicating insufficient permissions, and the user cannot access the admin dashboard | Pass |
+| Admin panel - Manage user accounts - superuser required | Log in as a superuser, navigate to the user management section, add a new user, edit an existing user, delete a user. | The user accounts are correctly added, edited, and deleted, with changes reflected in the database. | Pass |
+| Admin panel - Manage recipes - superuser required | Log in as a superuser, navigate to the recipes section, add a new recipe, edit or delete an existing one. | The recipes are correctly added, edited, and deleted, with changes reflected in the database. | Pass |
+| Responsiveness | Access the _RecipeWebsite_ pages using a desktop browser, resize the browser window to simulate different screen sizes (e.g., mobile, tablet), and refresh the pages as needed | The page layout adjusts smoothly and remains usable without horizontal scrolling, ensuring all content (cards, buttons, text) is displayed appropriately for each screen size. | Pass |
+
+
+</details>
+
+### Browser Compatibility
+  The tests were conducted using the following browser:
+
+- Google Chrome Version 126.0.6478.126 <br>
+Tests were also carried out for the following browsers using [browserling](https://www.browserling.com/) <br>
+- Edge Version 122
+- Firefox 124
+- Opera 108
 
 ## References
 ### Docs
