@@ -123,8 +123,8 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <summary> Log In </summary>
 <br>
 
-![Mobile wireframe]()
-![Desktop wireframe]()
+![Mobile wireframe]()<br>
+![Desktop wireframe]()<br>
 
 </details>
 
@@ -132,8 +132,8 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <summary> Log out </summary>
 <br>
 
-![Mobile wireframe]()
-![Desktop wireframe]()
+![Mobile wireframe]()<br>
+![Desktop wireframe]()<br>
 
 </details>
 
@@ -173,6 +173,141 @@ I created the colour palette with [coloors](https://coolors.co/).<br>
 
 [Indie Flower](https://fonts.google.com/specimen/Indie+Flower) was used as font for headings.<br>
 [Lato](https://fonts.google.com/specimen/Lato?query=lato) was selected for text content. It is a sans-serif font which is easy to read, and has a certain aesthetic. Both fonts were imported via Google Fonts.<br>
+
+---
+
+## Features
+
+### Existing Features
+
+To learn more about each feature, please click on the respective headline
+
+<details>
+<summary> Header </summary>
+<br>
+
+uuuuuuuuuuuu <br>
+View for users who are not logged in:<br>
+  - Screenshot of header in mobile view:<br>
+  ![Screenshot header mobile view]()<br>
+  - Screenshot of header in mobile view with toggled navigation:<br>
+  ![Screenshot header mobile view toggle]()<br>
+  - Screenshot of header on larger screens:<br>
+  ![Screenshot Header on larger screens]()<br>
+
+  
+  View for users who are logged in:<br>
+  - Screenshot of header in mobile view:<br>
+  ![Screenshot header for logged in user mobile view]()<br>
+  - Screenshot of header in mobile view with toggled navigation:<br>
+  ![Screenshot header for logged in user mobile view toggle]()<br>
+  - Screenshot of header in mobile view with toggled navigation:<br>
+  ![Screenshot header for logged in user on larger screens]()<br>
+
+
+</details>
+
+<details>
+<summary> Footer </summary>
+<br>
+
+uuuuuuuuuuuu<br>
+Screenshot for footer in mobile view:<br>
+![Screenshot footer mobile view]()<br>
+Screenshot for footer on larger screens: <br>
+![Screenshot footer on larger screens]()<br>
+
+</details>
+
+<details>
+<summary> Home page </summary>
+<br>
+
+uuuuuuuuuuuuu<br>
+Screenshot for the home page to log in or sign up:<br>
+![Screenshot home page]()<br>
+Screenshot of the home page after log in: <br>
+![Screenshot home page after log in]()<br>
+
+
+</details>
+
+<details>
+<summary> User authentication and account</summary>
+<br>
+
+uuuuuuuuuuuuuuuu<br>
+Screenshot for Register: <br>
+![Screenshot of the Register page]()<br>
+Scrrenshot for Log In: <br>
+![Screenshot of the Login page]()<br>
+![Screenshot of the message following the successful log-in]()<br>
+Screenshot for Log Out: <br>
+![Screenshot of the Log Out page]()<br>
+Screenshot of the message following a successful log-out: <br>
+![Screenshot of the message following the successful log-out]()<br>
+
+</details>
+
+
+<details>
+<summary> Profile </summary>
+<br>
+
+uuuuuuuuuuuu<br>
+Screenshot of profile page:<br>
+![Screenshot of profile page]()<br>
+
+</details>
+
+<details>
+<summary> Recipes</summary>
+<br>
+
+uuuuuuuuuuuuuu<br>
+Screenshot of Recipes page:<br>
+![Screenshot of recipes page]()<br>
+
+- **Add a Recipe**<br>
+uuuuuuuuuuuuuu<br>
+Screenshot of Add Recipe page<br>
+![Screenshot of add recipe page]()<br>
+
+- **Edit a Recipe**<br>
+uuuuuuuuuuuu<br>
+Screenshot of edit Recipe<br>
+![Screenshot of edit recipe]()<br>
+Screenshot of message:<br>
+![Screenshot of edit message]()<br>
+
+- **Delete a Recipe**<br>
+uuuuuuuuuuuuuu<br>
+Screenshot of delete confirmation page<br>
+![Screenshot of delete confirmation page]()<br>
+
+
+- **Admin panel**<br>
+As a superuser it is possible to access the admin area of the page by adding */admin* to the link of the home page and logging in with username and password. Inside the admin panel, the superuser can manage and interact with the data of this project.<br>
+
+   Screenshot of admin panel log in: <br>
+   ![Screenshot of admin panel log in]()<br>
+   Screenshot of admin panel: <br>
+   ![Screenshot of admin panel]()<br>
+
+
+</details>
+
+### Features left to implement
+
+- 
+- 
+- 
+
+
+## Bugs
+
+
+---
 
 ## Technologies Used
 
