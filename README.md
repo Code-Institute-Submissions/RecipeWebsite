@@ -15,12 +15,10 @@ Discover a world of sweet recipes from all the world , satisfy your appetite wit
 * [Registered user](#registered-user)
 * [Admin user](#admin-user)
 ### [Design](#design-1)
-* [Color Scheme](#color-scheme)
-* [Cabin Images](#cabin-images)
 * [Wireframes](#wireframes)
-* [Data Model](#data-models)
-* [User Journey](#user-journey)
-* [Database Scheme](#database-scheme)
+* [Logo](#logo)
+* [Favicon](#favicon)
+* [Typography](#typography)
 ### [Features](#features-1)
 * [Existing Features](#existing-features)
 * [Features Left to Implement](#features-left-to-implement)
@@ -80,6 +78,101 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 
 
 ----
+
+## Design
+
+### Wireframes 
+
+<details>
+<summary> Home </summary>
+<br>
+
+![Mobile wireframe]()<br>
+![Desktop wireframe]()<br>
+
+</details>
+
+<details>
+<summary> Recipes </summary>
+<br>
+
+![Mobile wireframe]()<br>
+![Desktop wireframe]()<br>
+
+</details>
+
+<details>
+<summary> Add recipe </summary>
+<br>
+
+![Mobile wireframe]()<br>
+![Desktop wireframe]()<br>
+
+</details>
+
+<details>
+<summary> Register </summary>
+<br>
+
+![Mobile wireframe]()<br>
+![Desktop wireframe]()<br>
+
+</details>
+
+<details>
+<summary> Log In </summary>
+<br>
+
+![Mobile wireframe]()
+![Desktop wireframe]()
+
+</details>
+
+<details>
+<summary> Log out </summary>
+<br>
+
+![Mobile wireframe]()
+![Desktop wireframe]()
+
+</details>
+
+<details>
+<summary> Profile </summary>
+<br>
+
+![Mobile wireframe]()<br>
+![Desktop wireframe]()<br>
+
+</details> 
+
+#### Logo
+
+The logo was made with [Canva](https://www.canva.com/).<br>
+
+  ![Logo for RecipeWebsite](static/images/documentation/design/logo_doc.webp)<br>
+
+#### Favicon
+
+The favicon was created with [Favicon.io](https://favicon.io/favicon-generator/).<br>
+
+  ![Favicon for RecipeWebsite](static/images/documentation/design/favicon.png)
+
+#### Colour Scheme:  
+
+<details>
+<summary> Click here to see the colour palette </summary>
+<br>
+
+I created the colour palette with [coloors](https://coolors.co/).<br>
+![Colour palette ](static/images/documentation/design/palette_colours.png)<br>
+
+</details>
+
+### Typography
+
+[Indie Flower](https://fonts.google.com/specimen/Indie+Flower) was used as font for headings.<br>
+[Lato](https://fonts.google.com/specimen/Lato?query=lato) was selected for text content. It is a sans-serif font which is easy to read, and has a certain aesthetic. Both fonts were imported via Google Fonts.<br>
 
 ## Technologies Used
 
