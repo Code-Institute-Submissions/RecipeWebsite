@@ -87,7 +87,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <summary> Home </summary>
 <br>
 
-![Mobile wireframe]()<br>
+![Mobile wireframe](static/images/documentation/wireframes/home.png)<br>
 ![Desktop wireframe]()<br>
 
 </details>
@@ -96,7 +96,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <summary> Recipes </summary>
 <br>
 
-![Mobile wireframe]()<br>
+![Mobile wireframe](static/images/documentation/wireframes/recipes.png)<br>
 ![Desktop wireframe]()<br>
 
 </details>
@@ -105,7 +105,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <summary> Add recipe </summary>
 <br>
 
-![Mobile wireframe]()<br>
+![Mobile wireframe](static/images/documentation/wireframes/add_recipe.png)<br>
 ![Desktop wireframe]()<br>
 
 </details>
@@ -132,7 +132,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <summary> Log out </summary>
 <br>
 
-![Mobile wireframe]()<br>
+![Mobile wireframe](static/images/documentation/wireframes/sign_out.png)<br>
 ![Desktop wireframe]()<br>
 
 </details>
@@ -141,7 +141,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <summary> Profile </summary>
 <br>
 
-![Mobile wireframe]()<br>
+![Mobile wireframe](static/images/documentation/wireframes/profile.png)<br>
 ![Desktop wireframe]()<br>
 
 </details> 
@@ -189,20 +189,20 @@ To learn more about each feature, please click on the respective headline
 uuuuuuuuuuuu <br>
 View for users who are not logged in:<br>
   - Screenshot of header in mobile view:<br>
-  ![Screenshot header mobile view]()<br>
+  ![Screenshot header mobile view](static/images/documentation/features_images/header_mobile.png)<br>
   - Screenshot of header in mobile view with toggled navigation:<br>
-  ![Screenshot header mobile view toggle]()<br>
+  ![Screenshot header mobile view toggle](static/images/documentation/features_images/header_mobile_toggle_logout.png)<br>
   - Screenshot of header on larger screens:<br>
-  ![Screenshot Header on larger screens]()<br>
+  ![Screenshot header on larger screens](static/images/documentation/features_images/header_logout.png)<br>
 
   
   View for users who are logged in:<br>
   - Screenshot of header in mobile view:<br>
-  ![Screenshot header for logged in user mobile view]()<br>
+  ![Screenshot header for logged in user mobile view](static/images/documentation/features_images/header_mobile.png)<br>
   - Screenshot of header in mobile view with toggled navigation:<br>
-  ![Screenshot header for logged in user mobile view toggle]()<br>
-  - Screenshot of header in mobile view with toggled navigation:<br>
-  ![Screenshot header for logged in user on larger screens]()<br>
+  ![Screenshot header for logged in user mobile view toggle](static/images/documentation/features_images/header_mobile_toggle.png)<br>
+  - Screenshot of header on larger screens:<br>
+  ![Screenshot header for logged in user on larger screens](static/images/documentation/features_images/header.png)<br>
 
 
 </details>
@@ -213,9 +213,9 @@ View for users who are not logged in:<br>
 
 uuuuuuuuuuuu<br>
 Screenshot for footer in mobile view:<br>
-![Screenshot footer mobile view]()<br>
+![Screenshot footer mobile view](static/images/documentation/features_images/footer_mobile.png)<br>
 Screenshot for footer on larger screens: <br>
-![Screenshot footer on larger screens]()<br>
+![Screenshot footer on larger screens](static/images/documentation/features_images/footer.png)<br>
 
 </details>
 
@@ -225,9 +225,9 @@ Screenshot for footer on larger screens: <br>
 
 uuuuuuuuuuuuu<br>
 Screenshot for the home page to log in or sign up:<br>
-![Screenshot home page]()<br>
+![Screenshot home page](static/images/documentation/features_images/home_before_login.png)<br>
 Screenshot of the home page after log in: <br>
-![Screenshot home page after log in]()<br>
+![Screenshot home page after log in](static/images/documentation/features_images/home_after_login.png)<br>
 
 
 </details>
@@ -238,14 +238,14 @@ Screenshot of the home page after log in: <br>
 
 uuuuuuuuuuuuuuuu<br>
 Screenshot for Register: <br>
-![Screenshot of the Register page]()<br>
+![Screenshot of the Register page](static/images/documentation/features_images/register_page.png)<br>
 Scrrenshot for Log In: <br>
-![Screenshot of the Login page]()<br>
-![Screenshot of the message following the successful log-in]()<br>
+![Screenshot of the Login page](static/images/documentation/features_images/login_page.png)<br>
+![Screenshot of the message following the successful log-in](static/images/documentation/features_images/login_message.png)<br>
 Screenshot for Log Out: <br>
-![Screenshot of the Log Out page]()<br>
+![Screenshot of the Log Out page](static/images/documentation/features_images/logout.png)<br>
 Screenshot of the message following a successful log-out: <br>
-![Screenshot of the message following the successful log-out]()<br>
+![Screenshot of the message following the successful log-out](static/images/documentation/features_images/logout_message.png)<br>
 
 </details>
 
@@ -256,7 +256,7 @@ Screenshot of the message following a successful log-out: <br>
 
 uuuuuuuuuuuu<br>
 Screenshot of profile page:<br>
-![Screenshot of profile page]()<br>
+![Screenshot of profile page](static/images/documentation/features_images/profiles.png)<br>
 
 </details>
 
@@ -266,33 +266,37 @@ Screenshot of profile page:<br>
 
 uuuuuuuuuuuuuu<br>
 Screenshot of Recipes page:<br>
-![Screenshot of recipes page]()<br>
+![Screenshot of recipes page](static/images/documentation/features_images/recipes_page.png)<br>
 
 - **Add a Recipe**<br>
 uuuuuuuuuuuuuu<br>
 Screenshot of Add Recipe page<br>
-![Screenshot of add recipe page]()<br>
+![Screenshot of add recipe page](static/images/documentation/features_images/add_recipe_page.png)<br>
+Screenshot of the message following a successful recipe created: <br>
+![Screenshot of the message following the successful recipe created](static/images/documentation/features_images/add_recipe_message.png)<br>
 
 - **Edit a Recipe**<br>
 uuuuuuuuuuuu<br>
 Screenshot of edit Recipe<br>
-![Screenshot of edit recipe]()<br>
+![Screenshot of edit recipe](static/images/documentation/features_images/edit_recipe.png)<br>
 Screenshot of message:<br>
-![Screenshot of edit message]()<br>
+![Screenshot of edit message](static/images/documentation/features_images/edit_recipe_message.png)<br>
 
 - **Delete a Recipe**<br>
 uuuuuuuuuuuuuu<br>
 Screenshot of delete confirmation page<br>
-![Screenshot of delete confirmation page]()<br>
+![Screenshot of delete confirmation page](static/images/documentation/features_images/delete_recipe.png)<br>
+Screenshot of the message following a successful recipe deleted: <br>
+![Screenshot of the message following the successful recipe deleted](static/images/documentation/features_images/delete_recipe_message.png)<br>
 
 
 - **Admin panel**<br>
 As a superuser it is possible to access the admin area of the page by adding */admin* to the link of the home page and logging in with username and password. Inside the admin panel, the superuser can manage and interact with the data of this project.<br>
 
    Screenshot of admin panel log in: <br>
-   ![Screenshot of admin panel log in]()<br>
+   ![Screenshot of admin panel log in](static/images/documentation/features_images/admin_login_panel.png)<br>
    Screenshot of admin panel: <br>
-   ![Screenshot of admin panel]()<br>
+   ![Screenshot of admin panel](static/images/documentation/features_images/admin_panel.png)<br>
 
 
 </details>
