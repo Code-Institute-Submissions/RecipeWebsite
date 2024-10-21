@@ -114,7 +114,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <summary> Register </summary>
 <br>
 
-![Mobile wireframe]()<br>
+![Mobile wireframe](static/images/documentation/wireframes/register.png)<br>
 ![Desktop wireframe]()<br>
 
 </details>
@@ -123,7 +123,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <summary> Log In </summary>
 <br>
 
-![Mobile wireframe]()<br>
+![Mobile wireframe](static/images/documentation/wireframes/log_in.png)<br>
 ![Desktop wireframe]()<br>
 
 </details>
@@ -186,7 +186,13 @@ To learn more about each feature, please click on the respective headline
 <summary> Header </summary>
 <br>
 
-uuuuuuuuuuuu <br>
+* The header is at the top of the website and contains the logo and the navigation bar/menu. For screens bigger then 1024px you can see all the different navigation menus at the top at the right side of the header logo.
+* Users can easy find the websites different pages through the navigation menu where they can go to the Recipes, Add Recipe, Register or Log in page.
+* The logo in the top left corner of the navigation bar is also a link to the home page.
+* For mobile phones the navigation menu turns into a hamburger bar icon which they can click on to activate the navigation menu.
+* Search bar situated on top right of the header make user easy to find what they need for recipes.
+* Navigation menù changes when a user is logged in.Register page will be profile page and log in page will be log out page.
+ <br>
 View for users who are not logged in:<br>
   - Screenshot of header in mobile view:<br>
   ![Screenshot header mobile view](static/images/documentation/features_images/header_mobile.png)<br>
@@ -211,7 +217,7 @@ View for users who are not logged in:<br>
 <summary> Footer </summary>
 <br>
 
-uuuuuuuuuuuu<br>
+* On the footer section user can find all the social link media. <br>
 Screenshot for footer in mobile view:<br>
 ![Screenshot footer mobile view](static/images/documentation/features_images/footer_mobile.png)<br>
 Screenshot for footer on larger screens: <br>
@@ -223,7 +229,11 @@ Screenshot for footer on larger screens: <br>
 <summary> Home page </summary>
 <br>
 
-uuuuuuuuuuuuu<br>
+* On the top of the home page user can find a little desciption of the website with the instruction to register to use all the features.
+* User can see all the latest recipes created from users registered.(Not logged in users)
+* User can click on the latest recipes without editing own recipes.Feature limited for only logged in users.
+* Home page will be the same for logged in users with the difference that they can edit and delete their own recipes directly.
+<br>
 Screenshot for the home page to log in or sign up:<br>
 ![Screenshot home page](static/images/documentation/features_images/home_before_login.png)<br>
 Screenshot of the home page after log in: <br>
@@ -236,7 +246,7 @@ Screenshot of the home page after log in: <br>
 <summary> User authentication and account</summary>
 <br>
 
-uuuuuuuuuuuuuuuu<br>
+* For the user authentication functionality like: Sign up, Log in and Log out Django allauth was installed. Success messages inform the user along the process of logging in and logging out.<br>
 Screenshot for Register: <br>
 ![Screenshot of the Register page](static/images/documentation/features_images/register_page.png)<br>
 Scrrenshot for Log In: <br>
@@ -254,7 +264,8 @@ Screenshot of the message following a successful log-out: <br>
 <summary> Profile </summary>
 <br>
 
-uuuuuuuuuuuu<br>
+* User can see own created recipes in this page along with number of recipes and date of registration on the website.
+The user needs to be logged in for this page to show.<br>
 Screenshot of profile page:<br>
 ![Screenshot of profile page](static/images/documentation/features_images/profiles.png)<br>
 
@@ -264,26 +275,29 @@ Screenshot of profile page:<br>
 <summary> Recipes</summary>
 <br>
 
-uuuuuuuuuuuuuu<br>
+* User can see all recipes created from all the users.The user can edit own recipes if logged in.User can't edit other recipes<br>
 Screenshot of Recipes page:<br>
 ![Screenshot of recipes page](static/images/documentation/features_images/recipes_page.png)<br>
 
-- **Add a Recipe**<br>
-uuuuuuuuuuuuuu<br>
+**Add a Recipe**<br>
+* If the user want to add their own recipe to the RecipeWebsite its done on this page.
+The user needs to be logged in for this page to show.All field must be filled for the recipe to be addedd.<br>
 Screenshot of Add Recipe page<br>
 ![Screenshot of add recipe page](static/images/documentation/features_images/add_recipe_page.png)<br>
 Screenshot of the message following a successful recipe created: <br>
 ![Screenshot of the message following the successful recipe created](static/images/documentation/features_images/add_recipe_message.png)<br>
 
 - **Edit a Recipe**<br>
-uuuuuuuuuuuu<br>
+* User can edit own recipes if logged in.
+* Success messages inform the user along the process of confirm editing recipe.<br>
 Screenshot of edit Recipe<br>
 ![Screenshot of edit recipe](static/images/documentation/features_images/edit_recipe.png)<br>
 Screenshot of message:<br>
 ![Screenshot of edit message](static/images/documentation/features_images/edit_recipe_message.png)<br>
 
 - **Delete a Recipe**<br>
-uuuuuuuuuuuuuu<br>
+* User can delete own recipes if logged in.
+* Success messages inform the user along the process of confirm deleting recipe<br>
 Screenshot of delete confirmation page<br>
 ![Screenshot of delete confirmation page](static/images/documentation/features_images/delete_recipe.png)<br>
 Screenshot of the message following a successful recipe deleted: <br>
@@ -303,9 +317,9 @@ As a superuser it is possible to access the admin area of the page by adding */a
 
 ### Features left to implement
 
-- 
-- 
-- 
+- Add Star rating number 1 to 5.Along this feature i want to add a filter search bar for most rated recipe.
+- Choice to save recipes in favourites adding heart icon.
+- Choice to personalize profile.
 
 
 ## Bugs
