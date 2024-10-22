@@ -194,6 +194,7 @@ To learn more about each feature, please click on the respective headline
 * Search bar situated on top right of the header make user easy to find what they need for recipes.
 * Navigation menù changes when a user is logged in.Register page will be profile page and log in page will be log out page.
  <br>
+
 View for users who are not logged in:<br>
   - Screenshot of header in mobile view:<br>
   ![Screenshot header mobile view](static/images/documentation/features_images/header_mobile.png)<br>
@@ -235,6 +236,7 @@ Screenshot for footer on larger screens: <br>
 * User can click on the latest recipes without editing own recipes.Feature limited for only logged in users.
 * Home page will be the same for logged in users with the difference that they can edit and delete their own recipes directly.
 <br>
+
 Screenshot for the home page to log in or sign up:<br>
 ![Screenshot home page](static/images/documentation/features_images/home_before_login.png)<br>
 Screenshot of the home page after log in: <br>
