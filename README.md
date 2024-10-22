@@ -88,7 +88,8 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <br>
 
 ![Mobile wireframe](static/images/documentation/wireframes/home.png)<br>
-![Desktop wireframe]()<br>
+![Desktop wireframe](static/images/documentation/wireframes/home_login2.png)<br>
+![Desktop wireframe](static/images/documentation/wireframes/home_logout2.png)<br>
 
 </details>
 
@@ -97,7 +98,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <br>
 
 ![Mobile wireframe](static/images/documentation/wireframes/recipes.png)<br>
-![Desktop wireframe]()<br>
+![Desktop wireframe](static/images/documentation/wireframes/recipe2.png)<br>
 
 </details>
 
@@ -106,7 +107,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <br>
 
 ![Mobile wireframe](static/images/documentation/wireframes/add_recipe.png)<br>
-![Desktop wireframe]()<br>
+![Desktop wireframe](static/images/documentation/wireframes/add_recipe2.png)<br>
 
 </details>
 
@@ -115,7 +116,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <br>
 
 ![Mobile wireframe](static/images/documentation/wireframes/register.png)<br>
-![Desktop wireframe]()<br>
+![Desktop wireframe](static/images/documentation/wireframes/register2.png)<br>
 
 </details>
 
@@ -124,7 +125,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <br>
 
 ![Mobile wireframe](static/images/documentation/wireframes/log_in.png)<br>
-![Desktop wireframe]()<br>
+![Desktop wireframe](static/images/documentation/wireframes/signin2.png)<br>
 
 </details>
 
@@ -133,7 +134,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <br>
 
 ![Mobile wireframe](static/images/documentation/wireframes/sign_out.png)<br>
-![Desktop wireframe]()<br>
+![Desktop wireframe](static/images/documentation/wireframes/signout2.png)<br>
 
 </details>
 
@@ -142,7 +143,7 @@ The Kanban board can be seen [here](https://github.com/users/t0tacci0/projects/7
 <br>
 
 ![Mobile wireframe](static/images/documentation/wireframes/profile.png)<br>
-![Desktop wireframe]()<br>
+![Desktop wireframe](static/images/documentation/wireframes/profile2.png)<br>
 
 </details> 
 
