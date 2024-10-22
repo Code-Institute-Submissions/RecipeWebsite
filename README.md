@@ -327,6 +327,8 @@ As a superuser it is possible to access the admin area of the page by adding */a
 
 ## Bugs
 
+Unfortunately due to lack of time i hadn't enough time to find any bugs.This is something i have to search deeper in future.
+But to now i haven't find major bug.
 
 ---
 
